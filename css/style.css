@@ -14,3 +14,33 @@
     box-sizing: border-box;
     width: auto;
 }
+
+.bio-box {
+    border: 1px solid black;
+    float: left;
+    font-size: 1rem;
+    padding: 2%;
+    width: 25%;
+    box-sizing: border-box;
+    }
+
+.bio-wrapper {
+    font-size: 24px;
+    background-color: #c0e0c3;
+   
+}
+
+.bio-wrapper:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+/* 
+.social-list */
+
+.social-list > li {
+    display: inline-block;
+}
