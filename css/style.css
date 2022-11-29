@@ -20,15 +20,28 @@
     float: left;
     font-size: 1rem;
     padding: 2%;
-    width: 21%;
+    width: 23%;
     box-sizing: border-box;
-    margin: 2%;
+    margin: 40px 1% 0;
     }
 
 .bio-wrapper {
     font-size: 24px;
     background-color: #c0e0c3;
+    max-width: 960px;
+    margin: auto;
    
+}
+
+.bio-box img {
+    width: 100%
+}
+
+.bio-box h3 {
+    color: white;
+    font-size: 1.5em;
+    margin: -40px 0 1em;
+    text-align: center;
 }
 
 .bio-wrapper:after {
