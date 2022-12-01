@@ -15,6 +15,11 @@
     width: auto;
 }
 
+.full-hero {
+    background-color: rgb(128, 155, 204);
+    width: 99vw;
+    height: 40vh;
+}
 .bio-box {
     border: 1px solid black;
     float: left;
@@ -23,7 +28,7 @@
     width: 23%;
     box-sizing: border-box;
     margin: 40px 1% 0;
-    }
+}
 
 .bio-wrapper {
     font-size: 24px;
@@ -52,9 +57,27 @@
     clear: both;
     height: 0;
 }
-/* 
-.social-list */
+
+.social-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
 
 .social-list > li {
     display: inline-block;
+    background-color: green;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 100%;
+    box-sizing: border-box;
+    padding: 1.25em;
+    font-size: 1em;
+    line-height: 1;
+  }
+
+.social-list > a{
+    text-decoration: none;
+
+    
 }
